@@ -1,0 +1,5 @@
+module CCTensorFlow [system] {
+  header "CCTensorFlow.h"
+  link "tensorflow_framework"
+  export *
+}

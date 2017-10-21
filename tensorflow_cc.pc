@@ -1,0 +1,6 @@
+Name: tensorflow_cc
+Description: C++ Tensorflow library
+Version: 1.4.0
+tensorflow_path=/server/repository/tensorflow
+Libs: -L${tensorflow_path}/bazel-bin/tensorflow -ltensorflow_framework
+Cflags: -I${tensorflow_path} -I${tensorflow_path}/bazel-genfiles -I${tensorflow_path}/tensorflow/contrib/makefile/downloads/nsync/public -I${tensorflow_path}/tensorflow/contrib/makefile/downloads/protobuf/src
